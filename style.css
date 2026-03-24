@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: blueviolet;
+    color: #333;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+}
+
+h1 {color: crimson; border-bottom: 2px solid #2c3e50; }
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input, textarea, select {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+}
+img { max-width: 100%; border-radius: 10px; }
+.video-container { margin-top: 20px; }
